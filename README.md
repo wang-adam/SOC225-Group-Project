@@ -16,10 +16,10 @@ Previous studies have mostly relied on self-reporting questionnaires and compari
 
 
 ### Data
-We will use this public dataset found off of [Kaggle](https://www.kaggle.com/datasets/mariazhokhova/higher-education-students-performance-evaluation). The data set contains answers of students’ personal questions, family questions, educational habits, and their grades. Since this dataset only contains 145 entries, it might be hard to train and validate a model based on so few data points. Depending on how the training goes, we might find an additional dataset to bolster the number of data points. 
+We will use this public dataset found off of [Kaggle](https://www.kaggle.com/datasets/mariazhokhova/higher-education-students-performance-evaluation). The data set contains answers of students’ personal questions, family questions, educational habits, and their grades. Since this dataset only contains 145 entries, it might be hard to train and validate a model based on so few data points. Depending on how the training goes, we might find an additional dataset to bolster the number of data points.
 
 
-Methods
+### Methods
 We will mainly use Python to perform our analysis
 We will likely use libraries such as Pytorch for the machine learning model, and matplotlib for static visualizations.
 We may also use other visualization tools such as Observable or Tableau for interactive visualizations.
@@ -27,9 +27,9 @@ We will run linear regression on features to figure out which features are the b
 If there are too many factors, we will use Lasso Regression to focus on factors that have the most impact on a student’s GPA
 
 
-References
-1 Pre-existing study of academic success using student questionnaires: https://eprints.qut.edu.au/56040/1/56040.pdf
+### References
+1 Pre-existing study of academic success using [student questionnaires](https://eprints.qut.edu.au/56040/1/56040.pdf)
 
 
-Deliverables
+### Deliverables
 Along with the required deliverables of a presentation and the report, we will do an interactive visualization that will allow users see how selected factors correlate the academic success. With these interactive visualizations, users will also be able to filter the dataset by specific features and see how strongly the predicted values match the actual values. We will also consider hosting these visualizations on a HTML website or a public Github repository.
