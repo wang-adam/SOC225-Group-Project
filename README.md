@@ -1,11 +1,11 @@
-# GPA: What factors affect a student’s academic performance. 
+# GPA: What factors affect a student’s academic performance.
 ## Learning predictors for success in higher education.
 ### Project overview
 For this project, we will try to identify features that are indicators for ‘success’ in higher education. As students ourselves, it would be beneficial to identify the features that affect academic success the most, and hopefully use it to improve our academic standing.  It is also important to understand these findings in a broader context: how students’ individual backgrounds and the resources available to them affect their ‘success’ in school, and how their ‘success’ is much more than how much they study and participate in class. More specifically, we will be looking at qualities such as how much time a student spends studying per day, parental education levels, income levels,  number of siblings, class attendance, etc. and seeing how well these characteristics predict student GPA.
 Once we’ve identified the features that are the best predictors for educational success, we will try and interpret these results to look for any barriers to educational success. Certain features in our dataset are out of the student’s control, whereas others can be directly controlled by the student. Therefore, we can also identify what types of features impact student success the most, and if they would create any inequality in student achievement.
 There are many pre-existing studies on factors that influence academic performance in post-secondary education. In the study we found, the group used questionnaires to assess 197 first year students 4-8 weeks before the end of the semester, and GPAs were collected at the end of the semester1. The group used the student responses and compared them with the GPAs to identify which factors influenced student performance. Similarity,  our group will use GPAs as a measure of academic success. However, our group will use machine learning to identify these features and visuals to discover any other interesting trends, as opposed to questionnaires that the pre-existing study used.
 
-###Research questions
+### Research questions
 What features impact student success in  post-secondary education the most?
 How much can students control their academic achievement/outcome in school?
 Are there any factors that create unjust barriers to success in an academic setting?
